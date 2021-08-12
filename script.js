@@ -20,6 +20,15 @@ function generatePassword() {
   let pwdLength = prompt(
     "Between 8 and 128 characters, how long would you like your password to be?"
   );
+  if (pwdLength < 8 || pwdLength > 128 || isNaN(parseInt(pwdLength))) {
+    alert("Please enter a number between 8 and 128.");
+  } else {
+    let lowerCase = confirm("Would you like to use lowereCase characters?");
+    if(lowerCase) {
+      allChar += lc
+    };
+    
+  }
 }
 // Write password to the #password input
 function writePassword() {
