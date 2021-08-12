@@ -1,1 +1,4 @@
 # javascript-password-generator
+
+## Purpose
+
