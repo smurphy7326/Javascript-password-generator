@@ -35,13 +35,34 @@ function generatePassword() {
     if(specialCharacters) {
       allChar += spec
     };
-    
+    let numbers = confirm("Would you like to use numbers?");
+    if (num) {
+      allChar += num
+    };
+
+    // console.log(prompt worked")
+    if (
+      lowerCase === false &&
+      uppercase === false &&
+      specialCharacters === false &&
+      numbers === false
+    ) {
+      alert("Please select at least one character type.");
+      generatePassword();
+    }
   }
+
+  let pwd = "";
+  for (let i=0; i < pwdLength; i++) {
+    pwd += allChar.charAt(Math.floor(Math.random() * allChar.length))
+  }
+  return pwd
 }
+
 // Write password to the #password input
 function writePassword() {
-  var password = generatePassword();
-  var passwordText = document.querySelector("#password");
+  let password = generatePassword();
+  let passwordText = document.querySelector("#password");
 
   passwordText.value = password;
 
