@@ -45,16 +45,21 @@
 * Added the image links to README
 * Added link to wokring website in README
 
+### Version 1.12 - Updated Pictures and link
+* Took away spaces from the images to make them work
+* Took away the spaces from the link to make that work
+* Updated README.md
+
 ![image](./assets/images/password-generator-webpage.jpg)
 
-![image] (./assets/images/password-generator-length-prompt.jpg)
+![image](./assets/images/password-generator-length-prompt.jpg)
 
-![image] (./assets/images/password-generator-lowercase prompt.jpg)
+![image](./assets/images/password-generator-lowercase prompt.jpg)
 
-![image] (./assets/images/password-generator-uppercase- prompt.jpg)
+![image](./assets/images/password-generator-uppercase- prompt.jpg)
 
-![image] (./assets/images/password-generator-special-characters- prompt.jpg)
+![image](./assets/images/password-generator-special-characters- prompt.jpg)
 
-![image] (./assets/images/password-generator-numbers- prompt.jpg)
+![image](./assets/images/password-generator-numbers- prompt.jpg)
 
-[Password-Generator] (https://smurphy7326.github.io/javascript-password-generator/)
+[Password-Generator](https://smurphy7326.github.io/javascript-password-generator/)
