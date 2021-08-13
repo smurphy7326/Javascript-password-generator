@@ -27,6 +27,14 @@ function generatePassword() {
     if(lowerCase) {
       allChar += lc
     };
+    let upperCase = confirm("Would you like to use upperCase characters?");
+    if (upperCase) {
+      allChar += uc
+    };
+    let specialCharacters = confirm("Would you like to use special characters?");
+    if(specialCharacters) {
+      allChar += spec
+    };
     
   }
 }
