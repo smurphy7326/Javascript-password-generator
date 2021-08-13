@@ -1,7 +1,7 @@
 # javascript-password-generator
 
 ## Purpose
-
+UCONN Coding Bootcamp asked us to help make a random password generator. This task was given to us with an emphasis of Javascript. The HTML and CSS code was partically written for us. We were to take the things we have learned and use that to make Javascript work for the webpage by using different techniques that we learned earlier in the week.
 
 ### Version 1 - First Commit
 
@@ -54,12 +54,12 @@
 
 ![image](./assets/images/password-generator-length-prompt.jpg)
 
-![image](./assets/images/password-generator-lowercase prompt.jpg)
+![image](./assets/images/password-generator-lowercase-prompt.jpg)
 
-![image](./assets/images/password-generator-uppercase- prompt.jpg)
+![image](./assets/images/password-generator-uppercase-prompt.jpg)
 
-![image](./assets/images/password-generator-special-characters- prompt.jpg)
+![image](./assets/images/password-generator-special-characters-prompt.jpg)
 
-![image](./assets/images/password-generator-numbers- prompt.jpg)
+![image](./assets/images/password-generator-numbers-prompt.jpg)
 
 [Password-Generator](https://smurphy7326.github.io/javascript-password-generator/)
