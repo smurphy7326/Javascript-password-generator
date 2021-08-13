@@ -33,18 +33,28 @@
 * Updated the README.md
 * Added images to a CSS folder in the repository
 
-### Version 1,9 - Assets Folder
+### Version 1.9 - Assets Folder
 * Added an assets folder into the develop folder
 * Added images for the README.md to the assets folder
 
-![image] (./assets)
+### Version 1.10 - Images Folder
+* Added the pictures to the images folder
+* Images Folder was under the assets folder
 
-![image] ()
+### Version 1.11 - Updated README
+* Added the image links to README
+* Added link to wokring website in README
 
-![image] ()
+![image] (./assets/images/password-generator-webpage.jpg)
 
-![image] ()
+![image] (./assets/images/password-generator-length-prompt.jpg)
 
-![image] ()
+![image] (./assets/images/password-generator-lowercase prompt.jpg)
 
-![image] ()
+![image] (./assets/images/password-generator-uppercase- prompt.jpg)
+
+![image] (./assets/images/password-generator-special-characters- prompt.jpg)
+
+![image] (./assets/images/password-generator-numbers- prompt.jpg)
+
+[Password-Generator] (https://smurphy7326.github.io/javascript-password-generator/)
