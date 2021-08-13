@@ -33,7 +33,11 @@
 * Updated the README.md
 * Added images to a CSS folder in the repository
 
-![image] ()
+### Version 1,9 - Assets Folder
+* Added an assets folder into the develop folder
+* Added images for the README.md to the assets folder
+
+![image] (./assets)
 
 ![image] ()
 
