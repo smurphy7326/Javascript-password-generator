@@ -8,11 +8,11 @@ const lc = "abcdefghijklmnopqrstuvwxyz";
 
 const uc = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
-const spec = "~!@#$%^&*()_+{}|'<>?,./`[]";
+const spec = "~!@#$%^&*<>+=";
 
 const num = "0123456789";
 
-letallChar = "";
+let allChar = "";
 
 //Prompt questions and answer section
 function generatePassword() {
@@ -23,7 +23,7 @@ function generatePassword() {
   if (pwdLength < 8 || pwdLength > 128 || isNaN(parseInt(pwdLength))) {
     alert("Please enter a number between 8 and 128.");
   } else {
-    let lowerCase = confirm("Would you like to use lowereCase characters?");
+    let lowerCase = confirm("Would you like to use lowerCase characters?");
     if(lowerCase) {
       allChar += lc
     };
@@ -63,10 +63,9 @@ function generatePassword() {
 function writePassword() {
   let password = generatePassword();
   let passwordText = document.querySelector("#password");
-
   passwordText.value = password;
-
 }
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
+console.log(generateBtn)
