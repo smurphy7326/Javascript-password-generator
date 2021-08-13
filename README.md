@@ -45,7 +45,7 @@
 * Added the image links to README
 * Added link to wokring website in README
 
-![image] (./assets/images/password-generator-webpage.jpg)
+![image](./assets/images/password-generator-webpage.jpg)
 
 ![image] (./assets/images/password-generator-length-prompt.jpg)
 
